@@ -1,0 +1,26 @@
+.root {
+  -fx-background-color: #121212;
+  -fx-font-family: "Segoe UI", sans-serif;
+  -fx-text-fill: #e0e0e0;
+}
+
+/* Labels, Buttons, TextAreas, ComboBoxes all inherit from .root */
+/* You can override specifics if needed */
+.label, .text-area, .combo-box, .button {
+  -fx-text-fill: #e0e0e0;
+}
+
+/* Example overrides */
+.text-area {
+  -fx-control-inner-background: #1e1e1e;
+  -fx-border-color: #3a3f5a;
+}
+
+.combo-box {
+  -fx-background-color: #2c2f48;
+  -fx-border-color: #5ddcff;
+}
+
+.button {
+  -fx-background-color: linear-gradient(to right, #00f2fe, #4facfe);
+}

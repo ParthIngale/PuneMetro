@@ -1,0 +1,104 @@
+/* .root {
+    -fx-background-color: #121212;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+
+.combo-box {
+    -fx-background-color: #1e1e1e;
+    -fx-border-color: #4caf50;
+    -fx-border-radius: 5px;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: white;
+}
+
+.combo-box:hover {
+    -fx-border-color: #81c784;
+}
+
+.button {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, #000000, 2, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #66bb6a;
+} */
+
+/* Root container */
+
+
+.root {
+    -fx-background-color: #1e1e2f;
+    -fx-font-family: "Segoe UI", "JetBrains Mono", sans-serif;
+    -fx-text-fill: #e0e0e0;
+} 
+
+/* Labels */
+ .label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+    -fx-font-weight: 500;
+} 
+
+/* ComboBoxes */
+ .combo-box {
+    -fx-background-color: #2c2f48;
+    -fx-border-color: #5ddcff;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #2c2f48;
+    -fx-text-fill: #ffffff;
+} 
+
+/* ComboBox Hover */
+ .combo-box:hover {
+    -fx-border-color: #66fcf1;
+    -fx-effect: dropshadow(gaussian, #00f2fe55, 4, 0.3, 0, 1);
+} 
+
+/* Buttons */
+ .button {
+    -fx-background-color: linear-gradient(to right, #00f2fe, #4facfe);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-padding: 8 16;
+    -fx-font-size: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 4, 0.2, 0, 2);
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #4facfe, #00f2fe);
+} 
+
+/* Optional route display box */
+ .text-area {
+    -fx-background-color: #12141c;
+    -fx-text-fill: #dcdcdc;
+    -fx-font-size: 14px;
+    -fx-border-color: #3a3f5a;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+} 
