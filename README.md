@@ -4,7 +4,6 @@ A comprehensive JavaFX desktop application for planning metro routes in Pune, In
 
 ## 📋 Table of Contents
 - [Features](#-features)
-- [Screenshots](#-screenshots)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Technical Details](#-technical-details)
@@ -44,14 +43,6 @@ A comprehensive JavaFX desktop application for planning metro routes in Pune, In
 - **Service Hours**: Metro availability checking (6:00 AM - 11:00 PM)
 - **Boarding Direction**: Platform and direction guidance
 - **Interchange Instructions**: Detailed walking directions for line changes
-
-## 📸 Screenshots
-
-*Add screenshots of your application here showing:*
-- Main interface with metro map
-- Route calculation results
-- Interactive station selection
-- Dark/light theme views
 
 ## 🚀 Installation
 
