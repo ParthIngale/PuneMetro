@@ -1,5 +1,9 @@
 # 🚇 Pune Metro Route Planner
 
+## 🎥 Demo Video
+
+[![Watch the video](https://drive.google.com/file/d/1rpjpvZLC1XdZyJgDLoEyzrsxBASYyhPG/view?usp=sharing)](https://drive.google.com/file/d/1rpjpvZLC1XdZyJgDLoEyzrsxBASYyhPG/view?usp=sharing)
+
 A comprehensive JavaFX desktop application for planning metro routes in Pune, India. Features an interactive metro network map with real-time route calculation using Dijkstra's algorithm.
 
 ## 📋 Table of Contents
